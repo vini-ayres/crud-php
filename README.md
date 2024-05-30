@@ -2,6 +2,8 @@
 
 Este projeto é um sistema CRUD (Create, Read, Update, Delete) simples usando PHP e MySQL. Ele permite adicionar, visualizar, editar e deletar usuários em um banco de dados MySQL.
 
+![image](https://github.com/vini-ayres/crud-php/assets/131456406/c9b2d963-c60e-4b47-8b4c-1fb5ff33f919)
+
 ## Requisitos
 
 - PHP 7.4 ou superior
