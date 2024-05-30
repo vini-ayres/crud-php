@@ -22,7 +22,6 @@ function buscarUsuarios($conexao) {
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
