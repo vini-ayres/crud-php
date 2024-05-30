@@ -21,18 +21,6 @@ function buscarUsuarios($conexao) {
     $stmt = $conexao->query($query);
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
-
-// UPDATE
-function atualizarUsuario($conexao, $id, $nome, $email) {
-    $query = "UPDATE usuarios SET nome='$nome', email='$email' WHERE id=$id";
-    return $conexao->query($query);
-}
-
-// DELETE
-function deletarUsuario($conexao, $id) {
-    $query = "DELETE FROM usuarios WHERE id=$id";
-    return $conexao->query($query);
-}
 ?>
 
 <!DOCTYPE html>
